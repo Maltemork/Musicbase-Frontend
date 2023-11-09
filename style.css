@@ -1,0 +1,32 @@
+body {
+    background-color: gray;
+}
+
+#main_container {
+    background-color: white;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+    width: fit-content;
+    min-width: 922px;
+}
+
+#main_container thead {
+    font-weight: bold;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#main_container thead td:hover {
+    cursor: pointer;
+    background-color: rgb(196, 196, 196);
+}
+
+#main_table {
+    min-width: 920px;
+    width: fit-content;
+}
